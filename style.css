@@ -178,3 +178,48 @@ h1::first-letter {
 .banner a:hover {
   transform: scale(1.1);
 }
+
+/* about us */
+
+.about-us {
+  padding: 16px 300px;
+  background: linear-gradient(to right bottom, #bbffbb, #004600);
+}
+.about-us h2 {
+  font-size: 36px;
+}
+.about-us img {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-top: 24px;
+}
+.about-us p {
+  font-size: 18px;
+  margin-top: 24px;
+  width: 50%;
+  line-height: 1.8em;
+  margin-left: auto;
+  text-align: right;
+}
+.about-us a {
+  margin: 24px auto 0 auto;
+  display: block;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  background: #004600;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  padding: 8px;
+  transition: 0.5s;
+}
+.about-us a:hover {
+  background: #008f00;
+}
+.about-highlight {
+  background: yellow;
+  font-weight: bold;
+}
